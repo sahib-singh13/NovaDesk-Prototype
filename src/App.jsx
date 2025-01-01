@@ -5,6 +5,8 @@ import { DashBoard } from "./pages/DashBoard";
 import { ChatAnalysis } from "./pages/ChatAnalysis";
 import { CallAnalysis } from "./pages/CallAnalysis";
 import { InformationPage } from "./pages/InformationPage";
+import { Footer } from "./components/Footer";
+import { Copyright } from "./components/Copyright";
 
 
 const App = () => {
@@ -17,6 +19,8 @@ const App = () => {
       <Route path="/ChatAnalysis" element={<ChatAnalysis/>}/>
       <Route path="/Information" element={<InformationPage/>} />
     </Routes>
+    <Footer/>
+    <Copyright/>
   </div>
   )
 }
