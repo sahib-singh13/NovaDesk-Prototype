@@ -1,0 +1,127 @@
+{
+    "scheduledCalls": [
+    {
+      "id": 1,
+      "name": "Rohit Sharma",
+      "time": "10:00 AM",
+      "initialProblem": "Company not taking exchange product back",
+      "solution": "20% would be refunded"
+    },
+    {
+      "id": 2,
+      "name": "Priya Singh",
+      "time": "11:00 AM",
+      "initialProblem": "Delayed delivery of product",
+      "solution": "Shipping charges waived off, and expedited shipping"
+    },
+    {
+      "id": 3,
+      "name": "Amit Patel",
+      "time": "12:00 PM",
+      "initialProblem": "Wrong item delivered",
+      "solution": "Full refund issued, and return scheduled"
+    },
+    {
+      "id": 4,
+      "name": "Neha Gupta",
+      "time": "1:00 PM",
+      "initialProblem": "Damaged product received",
+      "solution": "Replacement arranged at no extra cost"
+    },
+    {
+      "id": 5,
+      "name": "Arjun Verma",
+      "time": "2:00 PM",
+      "initialProblem": "Item missing from package",
+      "solution": "Missing item dispatched with priority delivery"
+    },
+    {
+      "id": 6,
+      "name": "Kavya Rao",
+      "time": "3:00 PM",
+      "initialProblem": "Coupon code not applied",
+      "solution": "Partial refund equivalent to coupon discount"
+    },
+    {
+      "id": 7,
+      "name": "Vikram Mehta",
+      "time": "4:00 PM",
+      "initialProblem": "Payment failed but amount deducted",
+      "solution": "Amount refunded within 3-5 business days"
+    },
+    {
+      "id": 8,
+      "name": "Ananya Desai",
+      "time": "5:00 PM",
+      "initialProblem": "Unable to track order status",
+      "solution": "Tracking details shared via email"
+    },
+    {
+      "id": 9,
+      "name": "Rahul Nair",
+      "time": "6:00 PM",
+      "initialProblem": "Product price reduced after purchase",
+      "solution": "Refund of price difference issued"
+    },
+    {
+      "id": 10,
+      "name": "Isha Kapoor",
+      "time": "7:00 PM",
+      "initialProblem": "Gift wrapping service not provided",
+      "solution": "Gift wrapping charges refunded"
+    }
+  ],
+    "scheduledTasks": [
+    {
+      "id": 1,
+      "task": "Prepare Presentation on Weekly Performance",
+      "deadline": "2025-01-05"
+    },
+    {
+      "id": 2,
+      "task": "Update Customer Feedback Database",
+      "deadline": "2025-01-07"
+    },
+    {
+      "id": 3,
+      "task": "Draft Training Material for New Agents",
+      "deadline": "2025-01-09"
+    },
+    {
+      "id": 4,
+      "task": "Analyze Call Records for Quality Monitoring",
+      "deadline": "2025-01-10"
+    },
+    {
+      "id": 5,
+      "task": "Follow Up on Escalated Complaints",
+      "deadline": "2025-01-08"
+    },
+    {
+      "id": 6,
+      "task": "Prepare FAQ Document for Common Issues",
+      "deadline": "2025-01-12"
+    },
+    {
+      "id": 7,
+      "task": "Coordinate with the IT Team for System Updates",
+      "deadline": "2025-01-11"
+    },
+    {
+      "id": 8,
+      "task": "Compile Monthly Customer Satisfaction Report",
+      "deadline": "2025-01-15"
+    },
+    {
+      "id": 9,
+      "task": "Organize Team Meeting to Discuss Process Improvements",
+      "deadline": "2025-01-13"
+    },
+    {
+      "id": 10,
+      "task": "Submit Expense Report for Team Activities",
+      "deadline": "2025-01-14"
+    }
+  ]
+  }
+  

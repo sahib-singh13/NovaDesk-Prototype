@@ -11,7 +11,7 @@ import { Copyright } from "./components/Copyright";
 
 const App = () => {
   return (
-    <div>
+    <div className="h-full overflow-auto">
     <Navbar/>
     <Routes>
       <Route path="/" element={<DashBoard/>}/>
