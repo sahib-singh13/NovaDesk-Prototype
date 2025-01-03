@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ScheduledCalls } from '../components/ScheduledCalls';
 import { ScheduledTasks } from '../components/ScheduledTasks';
+import { AIChatBar } from '../components/AIChatBar';
 
 export const DashBoard = () => {
   const [CurrentButton, SetCurrentButton] = useState('Scheduled Calls');
@@ -32,10 +33,10 @@ export const DashBoard = () => {
   };
 
   return (
-    <div>
+       <div className="flex flex-col">
        <div className="flex flex-row h-[30rem]">
       {/* First div */}
-      <div className="w-1/2 h-full flex flex-col ">
+      <div className="w-1/2 h-full flex flex-col border-b-2 border-sky-300 ">
         <div className="flex flex-row justify-center">
           <button
             onClick={() => buttonClickHandler('Scheduled Calls')}
@@ -71,7 +72,7 @@ export const DashBoard = () => {
       </div>
 
       {/* Second div */}
-      <div className="w-1/2 h-full flex flex-col border border-sky-300">
+      <div className="w-1/2 h-full flex flex-col border-l-2 border-sky-300 border-b-2">
         <div className="justify-center align-middle ml-80 relative mt-2 text-2xl underline text-sky-300">
           Data Entry
         </div>
@@ -140,9 +141,7 @@ export const DashBoard = () => {
     </div>
 
     {/* Now here i will add my AI askChatbox design */}
-    <div>
-
-    </div>
+    <AIChatBar/>
     </div>
    
   );
