@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { ScheduledCalls } from '../components/ScheduledCalls';
 import { ScheduledTasks } from '../components/ScheduledTasks';
 import { AIChatBar } from '../components/AIChatBar';
+import "../components/checkbox.css"
 
 export const DashBoard = () => {
   const [CurrentButton, SetCurrentButton] = useState('Scheduled Calls');
@@ -82,7 +83,7 @@ export const DashBoard = () => {
             <label className="text-1xl text-sky-400 ">Enter Client's Name:</label>
             <textarea
               id="example-textarea"
-              className="w-full border border-sky-300 rounded p-2 h-10 overflow-hidden"
+              className="w-full border border-sky-300 rounded p-2 h-10 overflow-hidden text-sky-500"
               rows="4"
               placeholder="Name..."
               value={clientName}
@@ -94,7 +95,7 @@ export const DashBoard = () => {
             <label className="text-1xl text-sky-400">Enter Registered Phone Number:</label>
             <textarea
               id="example-textarea"
-              className="w-full border border-sky-300 rounded p-2 h-10 overflow-hidden"
+              className="w-full border border-sky-300 rounded p-2 h-10 overflow-hidden text-sky-500"
               rows="4"
               placeholder="Phone number.."
               value={phoneNumber}
@@ -106,7 +107,7 @@ export const DashBoard = () => {
             <label className="text-1xl text-sky-400">Client's Problem Description:</label>
             <textarea
               id="example-textarea"
-              className="w-full border border-sky-300 rounded p-2 h-20"
+              className="w-full border border-sky-300 rounded p-2 h-20 text-sky-500"
               rows="4"
               placeholder="Problem..."
               value={problemDescription}
@@ -118,7 +119,7 @@ export const DashBoard = () => {
             <label className="text-1xl text-sky-400">Resolution given to the problem:</label>
             <textarea
               id="example-textarea"
-              className="w-full border border-sky-300 rounded p-2"
+              className="w-full border border-sky-300 rounded p-2 text-sky-500"
               rows="4"
               placeholder="Resolution..."
               value={resolution}

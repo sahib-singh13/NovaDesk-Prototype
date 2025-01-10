@@ -42,7 +42,7 @@ export const Navbar = () => {
       </NavLink>
 
       <NavLink
-        to="/InformationPage"
+        to="/Information"
         className={({ isActive }) =>
           `text-1xl mx-2 text-white ${isActive ? "underline" : ""}`
         }
@@ -52,7 +52,7 @@ export const Navbar = () => {
 
       {/* User Icon */}
       <div
-        className="w-10 h-10 mx-5 cursor-pointer"
+        className="w-10 h-10 mx-5 cursor-pointer z-10"
         onMouseEnter={() => setShowProfilePopup(true)}
         onMouseLeave={() => setShowProfilePopup(false)}
       >

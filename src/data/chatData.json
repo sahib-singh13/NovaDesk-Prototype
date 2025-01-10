@@ -1,50 +1,134 @@
 {
-    "ChatData": [
-      {
-        "id": 1,
-        "userName": "John Doe",
-        "chatHistoryLink": "/chats/history1.json",
-        "currentStatus": "Pending",
-        "ratingGivenByUser": "4/5",
-        "AIAnalysis": "3.5/5",
-        "constructiveFeedback": "Response time could be faster."
-      },
-      {
-        "id": 2,
-        "userName": "Alice Smith",
-        "chatHistoryLink": "/chats/history2.json",
-        "currentStatus": "Resolved",
-        "ratingGivenByUser": "5/5",
-        "AIAnalysis": "4.5/5",
-        "constructiveFeedback": "Very helpful and quick response."
-      },
-      {
-        "id": 3,
-        "userName": "Robert Brown",
-        "chatHistoryLink": "/chats/history3.json",
-        "currentStatus": "Pending",
-        "ratingGivenByUser": "3/5",
-        "AIAnalysis": "3/5",
-        "constructiveFeedback": "Support needs to clarify steps better."
-      },
-      {
-        "id": 4,
-        "userName": "Emily White",
-        "chatHistoryLink": "/chats/history4.json",
-        "currentStatus": "Resolved",
-        "ratingGivenByUser": "4/5",
-        "AIAnalysis": "4/5",
-        "constructiveFeedback": "Good response but slightly delayed."
-      },
-      {
-        "id": 5,
-        "userName": "Michael Green",
-        "chatHistoryLink": "/chats/history5.json",
-        "currentStatus": "Pending",
-        "ratingGivenByUser": "2/5",
-        "AIAnalysis": "2.5/5",
-        "constructiveFeedback": "Response not very helpful."
-      }
-    ]
-  }
-  
+  "ChatData": [
+    {
+      "id": 1,
+      "userName": "John Doe",
+      "chatHistoryLink": "/chats/history1.json",
+      "currentStatus": "Pending",
+      "ratingGivenByUser": "4/5",
+      "AIAnalysis": "3.5/5",
+      "constructiveFeedback": "Response time could be faster.",
+      "chatMessages": [
+        {
+          "sender": "User",
+          "message": "I need help with my account.",
+          "timestamp": "2025-01-10T10:15:00Z"
+        },
+        {
+          "sender": "Support",
+          "message": "Sure, what seems to be the issue?",
+          "timestamp": "2025-01-10T10:16:00Z"
+        },
+        {
+          "sender": "User",
+          "message": "I can't log in despite using the correct password.",
+          "timestamp": "2025-01-10T10:17:00Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userName": "Alice Smith",
+      "chatHistoryLink": "/chats/history2.json",
+      "currentStatus": "Resolved",
+      "ratingGivenByUser": "5/5",
+      "AIAnalysis": "4.5/5",
+      "constructiveFeedback": "Very helpful and quick response.",
+      "chatMessages": [
+        {
+          "sender": "User",
+          "message": "How can I reset my password?",
+          "timestamp": "2025-01-09T14:20:00Z"
+        },
+        {
+          "sender": "Support",
+          "message": "You can reset it by clicking 'Forgot Password' on the login page.",
+          "timestamp": "2025-01-09T14:21:00Z"
+        },
+        {
+          "sender": "User",
+          "message": "Thanks! That worked perfectly.",
+          "timestamp": "2025-01-09T14:22:00Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "userName": "Robert Brown",
+      "chatHistoryLink": "/chats/history3.json",
+      "currentStatus": "Pending",
+      "ratingGivenByUser": "3/5",
+      "AIAnalysis": "3/5",
+      "constructiveFeedback": "Support needs to clarify steps better.",
+      "chatMessages": [
+        {
+          "sender": "User",
+          "message": "Can you explain how to activate my account?",
+          "timestamp": "2025-01-08T08:30:00Z"
+        },
+        {
+          "sender": "Support",
+          "message": "Please check your email for the activation link.",
+          "timestamp": "2025-01-08T08:31:00Z"
+        },
+        {
+          "sender": "User",
+          "message": "I did, but it says the link is expired.",
+          "timestamp": "2025-01-08T08:32:00Z"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "userName": "Emily White",
+      "chatHistoryLink": "/chats/history4.json",
+      "currentStatus": "Resolved",
+      "ratingGivenByUser": "4/5",
+      "AIAnalysis": "4/5",
+      "constructiveFeedback": "Good response but slightly delayed.",
+      "chatMessages": [
+        {
+          "sender": "User",
+          "message": "Is there a way to track my order?",
+          "timestamp": "2025-01-07T12:10:00Z"
+        },
+        {
+          "sender": "Support",
+          "message": "Yes, you can track your order using the tracking link in your email.",
+          "timestamp": "2025-01-07T12:12:00Z"
+        },
+        {
+          "sender": "User",
+          "message": "Got it. Thank you!",
+          "timestamp": "2025-01-07T12:13:00Z"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "userName": "Michael Green",
+      "chatHistoryLink": "/chats/history5.json",
+      "currentStatus": "Pending",
+      "ratingGivenByUser": "2/5",
+      "AIAnalysis": "2.5/5",
+      "constructiveFeedback": "Response not very helpful.",
+      "chatMessages": [
+        {
+          "sender": "User",
+          "message": "Why is my order delayed?",
+          "timestamp": "2025-01-06T16:00:00Z"
+        },
+        {
+          "sender": "Support",
+          "message": "We apologize for the inconvenience. Your order is delayed due to high demand.",
+          "timestamp": "2025-01-06T16:01:00Z"
+        },
+        {
+          "sender": "User",
+          "message": "That's disappointing. I needed it urgently.",
+          "timestamp": "2025-01-06T16:02:00Z"
+        }
+      ]
+    }
+  ]
+}

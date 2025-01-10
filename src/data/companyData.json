@@ -1,0 +1,71 @@
+{
+    "issues": {
+      "productRelated": [
+        {
+          "subproblem": "Defective product received",
+          "resolution": "Customer is instructed to return the defective product and a new one will be shipped within 2-3 business days."
+        },
+        {
+          "subproblem": "Wrong product delivered",
+          "resolution": "Customer will be provided with a return shipping label, and the correct product will be sent immediately."
+        },
+        {
+          "subproblem": "Product not as described",
+          "resolution": "Customer can request a full refund or exchange the product with one that matches the description."
+        },
+        {
+          "subproblem": "Product damaged in transit",
+          "resolution": "Customer can file a claim for a damaged product, and a replacement will be sent or a refund issued based on the customer's preference."
+        },
+        {
+          "subproblem": "Product functionality issues",
+          "resolution": "Customer support will assist in troubleshooting the product. If unresolved, the product will be replaced or refunded."
+        }
+      ],
+      "deliveryRelated": [
+        {
+          "subproblem": "Delayed delivery",
+          "resolution": "We will offer an expedited shipping method at no additional cost and update the customer with tracking information."
+        },
+        {
+          "subproblem": "Package lost during transit",
+          "resolution": "A claim will be filed with the courier service. The customer will be refunded or sent a replacement product immediately."
+        },
+        {
+          "subproblem": "Incorrect delivery address",
+          "resolution": "Customer is contacted to confirm the correct address, and the product is re-shipped with updated information."
+        },
+        {
+          "subproblem": "Partial delivery",
+          "resolution": "The missing items will be shipped immediately, and the customer will be updated with the tracking information."
+        },
+        {
+          "subproblem": "Failed delivery attempt",
+          "resolution": "Customer will be notified, and they can reschedule a new delivery time or pick up the package from a local facility."
+        }
+      ],
+      "applicationRelated": [
+        {
+          "subproblem": "App crashing on startup",
+          "resolution": "Technical support will guide the customer through troubleshooting steps, and a patch will be provided within the next update."
+        },
+        {
+          "subproblem": "Payment gateway error",
+          "resolution": "The customer will be advised to try an alternate payment method while the issue with the gateway is resolved within 24 hours."
+        },
+        {
+          "subproblem": "Login issues",
+          "resolution": "The customer is asked to reset their password or use the 'Forgot Password' feature. If the issue persists, tech support will assist in resolving it."
+        },
+        {
+          "subproblem": "App running slow",
+          "resolution": "Customers will be advised to clear cache, update the app to the latest version, or contact technical support if the issue continues."
+        },
+        {
+          "subproblem": "App not syncing data",
+          "resolution": "Technical support will investigate the issue, and a patch will be deployed to fix any syncing problems. Customers may also be instructed to log out and back in."
+        }
+      ]
+    }
+  }
+  

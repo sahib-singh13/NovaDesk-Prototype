@@ -1,8 +1,10 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export const Footer = () => {
   return (
     <div className="flex flex-row bg-sky-300 h-[15rem]">
+      {/* Query Submission Section */}
       <div className="flex flex-col">
         <div className="text-white text-1xl mt-2 ml-6 underline">Submit Your Query:</div>
         <div>
@@ -27,44 +29,75 @@ export const Footer = () => {
         </div>
       </div>
 
+      {/* Site Maps Section */}
       <div className="flex flex-col text-white items-center justify-center w-full space-y-2">
         <div className="underline text-1xl mb-2 text-center">Site Maps</div>
-        <div className="text-center hover:underline cursor-pointer">DashBoard</div>
-        <div className="text-center hover:underline cursor-pointer">Call-Analysis</div>
-        <div className="text-center hover:underline cursor-pointer">Chat-Analysis</div>
-        <div className="text-center hover:underline cursor-pointer">Information-Page</div>
-        <div className="text-center hover:underline cursor-pointer">Help</div>
+        <NavLink
+          to="/"
+          className="text-center hover:underline cursor-pointer"
+          activeClassName="text-sky-500"
+        >
+          DashBoard
+        </NavLink>
+        <NavLink
+          to="/CallAnalysis"
+          className="text-center hover:underline cursor-pointer"
+          activeClassName="text-sky-500"
+        >
+          Call-Analysis
+        </NavLink>
+        <NavLink
+          to="/ChatAnalysis"
+          className="text-center hover:underline cursor-pointer"
+          activeClassName="text-sky-500"
+        >
+          Chat-Analysis
+        </NavLink>
+        <NavLink
+          to="/Information"
+          className="text-center hover:underline cursor-pointer"
+          activeClassName="text-sky-500"
+        >
+          Information-Page
+        </NavLink>
+        <NavLink
+          to="/help"
+          className="text-center hover:underline cursor-pointer"
+          activeClassName="text-sky-500"
+        >
+          Help
+        </NavLink>
       </div>
 
+      {/* Connect With Us Section */}
       <div className="flex flex-col text-white justify-start items-center mr-24 space-y-2 w-[12rem] mt-6">
-        <div className="underline text-1xl  text-center mb-4">Connect With us</div>
+        <div className="underline text-1xl text-center mb-4">Connect With us</div>
         <div>
           <img
             src="/facebook.png"
             alt="Facebook"
-            className="w-6 h-6 hover:w-8 hover:h-8 transition-all duration-200 cursor pointer"
+            className="w-6 h-6 hover:w-8 hover:h-8 transition-all duration-200 cursor-pointer"
           />
         </div>
         <div>
           <img
             src="/X.png"
             alt="X"
-            className="w-6 h-6 hover:w-8 hover:h-8 transition-all duration-200 cursor pointer"
+            className="w-6 h-6 hover:w-8 hover:h-8 transition-all duration-200 cursor-pointer"
           />
         </div>
         <div>
           <img
             src="/instagram.png"
             alt="Instagram"
-            className="w-6 h-6 hover:w-8 hover:h-8 transition-all duration-200 cursor pointer"
+            className="w-6 h-6 hover:w-8 hover:h-8 transition-all duration-200 cursor-pointer"
           />
         </div>
-
         <div>
           <img
             src="/reddit.png"
             alt="reddit"
-            className="w-6 h-6 hover:w-8 hover:h-8 transition-all duration-200 cursor pointer"
+            className="w-6 h-6 hover:w-8 hover:h-8 transition-all duration-200 cursor-pointer"
           />
         </div>
       </div>

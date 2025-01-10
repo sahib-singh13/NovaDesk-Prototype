@@ -1,0 +1,25 @@
+/* Dashboard.css */
+
+.round-checkbox {
+    width: 1.25rem;
+    height: 1.25rem;
+    appearance: none;
+    border: 2px solid #7dd3fc; /* sky-300 */
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+  }
+  
+  .round-checkbox:checked {
+    border: none; /* Remove border */
+    background-color: transparent; /* Ensure no background color interferes */
+    background-image: url('./checkBox.png'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .round-checkbox:hover {
+    border-color: #0284c7;
+  }
+  
