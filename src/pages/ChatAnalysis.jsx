@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import AddChats from '../components/AddChats';
 
 export const ChatAnalysis = () => {
   return (
-    <div>ChatAnalysis</div>
-  )
+    <div className="h-[30rem] w-full">
+      <AddChats />
+    </div>
+  );
 }

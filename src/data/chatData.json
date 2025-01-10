@@ -1,0 +1,50 @@
+{
+    "ChatData": [
+      {
+        "id": 1,
+        "userName": "John Doe",
+        "chatHistoryLink": "/chats/history1.json",
+        "currentStatus": "Pending",
+        "ratingGivenByUser": "4/5",
+        "AIAnalysis": "3.5/5",
+        "constructiveFeedback": "Response time could be faster."
+      },
+      {
+        "id": 2,
+        "userName": "Alice Smith",
+        "chatHistoryLink": "/chats/history2.json",
+        "currentStatus": "Resolved",
+        "ratingGivenByUser": "5/5",
+        "AIAnalysis": "4.5/5",
+        "constructiveFeedback": "Very helpful and quick response."
+      },
+      {
+        "id": 3,
+        "userName": "Robert Brown",
+        "chatHistoryLink": "/chats/history3.json",
+        "currentStatus": "Pending",
+        "ratingGivenByUser": "3/5",
+        "AIAnalysis": "3/5",
+        "constructiveFeedback": "Support needs to clarify steps better."
+      },
+      {
+        "id": 4,
+        "userName": "Emily White",
+        "chatHistoryLink": "/chats/history4.json",
+        "currentStatus": "Resolved",
+        "ratingGivenByUser": "4/5",
+        "AIAnalysis": "4/5",
+        "constructiveFeedback": "Good response but slightly delayed."
+      },
+      {
+        "id": 5,
+        "userName": "Michael Green",
+        "chatHistoryLink": "/chats/history5.json",
+        "currentStatus": "Pending",
+        "ratingGivenByUser": "2/5",
+        "AIAnalysis": "2.5/5",
+        "constructiveFeedback": "Response not very helpful."
+      }
+    ]
+  }
+  
