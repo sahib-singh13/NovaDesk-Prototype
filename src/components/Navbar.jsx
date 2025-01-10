@@ -59,12 +59,13 @@ export const Navbar = () => {
         <img src="/profile.png" alt="Profile Icon" />
         {/* Profile Popup */}
         {showProfilePopup && (
-          <div className="absolute top-14 right-5 bg-white border border-gray-300 rounded-lg shadow-lg p-4 w-60">
+          <div className="absolute top-14 right-5 bg-white border border-gray-300 rounded-lg shadow-lg p-4 w-60
+          text-sky-400">
             <h3 className="text-lg font-semibold">User Profile</h3>
-            <p className="text-sm mt-2">Name:Divyam Talwar</p>
-            <p className="text-sm">Email: DivyamTalwar@gmail.com</p>
-            <p className="text-sm">Role:Executive</p>
-            <button className="border-2 border-sky-300 px-1 py-1 relative mt-2 hover:bg-sky-400">Settings</button>
+            <p className="text-sm mt-2"><strong>Name:</strong>Divyam Talwar</p>
+            <p className="text-sm"><strong>Email:</strong>DivyamTalwar@gmail.com</p>
+            <p className="text-sm"><strong>Role:</strong>Executive</p>
+          
         
           </div>
         )}
