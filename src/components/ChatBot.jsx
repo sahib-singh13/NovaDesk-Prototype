@@ -23,6 +23,15 @@ export const ChatBot = () => {
     setUserInput(event.target.value);
   };
 
+  // Handle Enter key press
+  const handleKeyPress = (event) => {
+    if (event.key === "Enter" && !event.shiftKey) {
+      // Trigger the API call only if Enter is pressed without Shift
+      event.preventDefault(); // Prevent adding a new line
+      ButtonFunction();
+    }
+  };
+
   const ButtonFunction = async () => {
     if (!userInput.trim()) {
       toast.error("Please enter a query!");
@@ -129,6 +138,7 @@ export const ChatBot = () => {
               placeholder="Ask Your Query here"
               value={userInput}
               onChange={handleInputChange}
+              onKeyPress={handleKeyPress} // Add the onKeyPress event handler
             ></textarea>
 
             {/* Generate Button */}
