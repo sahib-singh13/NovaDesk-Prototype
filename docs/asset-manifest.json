@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/novadesk-prototype/static/css/main.4b7bf545.css",
+    "main.js": "/novadesk-prototype/static/js/main.b88e7dbe.js",
+    "static/media/checkBox.png": "/novadesk-prototype/static/media/checkBox.f306c52678eeef9af6d6.png",
+    "index.html": "/novadesk-prototype/index.html",
+    "main.4b7bf545.css.map": "/novadesk-prototype/static/css/main.4b7bf545.css.map",
+    "main.b88e7dbe.js.map": "/novadesk-prototype/static/js/main.b88e7dbe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b7bf545.css",
+    "static/js/main.b88e7dbe.js"
+  ]
+}
