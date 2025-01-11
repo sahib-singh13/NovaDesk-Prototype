@@ -2,9 +2,10 @@
   "name": "react-tailwind-css-starter-pack",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sahib-singh13.github.io/novadesk-prototype/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.0",
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.5.1",

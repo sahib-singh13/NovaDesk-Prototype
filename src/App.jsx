@@ -33,7 +33,6 @@ const App = () => {
     <div className="h-full overflow-auto bg-slate-50">
     <Navbar/>
     <Routes>
-    <Route path="/" element={<novadesk-prototype/>}/>
       <Route path="/" element={<DashBoard/>}/>
       <Route path="/CallAnalysis"  element={<CallAnalysis/>} />
       <Route path="/ChatAnalysis" element={<ChatAnalysis/>}/>
