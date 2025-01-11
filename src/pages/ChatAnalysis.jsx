@@ -5,7 +5,7 @@ import { ChatBot } from '../components/ChatBot';
 export const ChatAnalysis = () => {
   return (
     <div>
-       <div className="h-[30rem] w-full">
+       <div className="h-[40rem] w-full">
       <AddChats />
     </div>
     <div>

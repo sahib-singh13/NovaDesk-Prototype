@@ -6,7 +6,7 @@ const AddChats = () => {
   const [selectedChat, setSelectedChat] = useState(null); // State to track the selected chat for the popup
 
   return (
-    <div className="h-[30rem] overflow-y-scroll border border-sky-300 p-4 scrollbar-hide">
+    <div className="h-[40rem] overflow-y-scroll border border-sky-300 p-4 scrollbar-hide">
       {data.ChatData.map((chat) => (
         <div key={chat.id} className="mb-6 text-sky-400 border-b-2 border-sky-300 ml-4">
           <h3 className="text-lg font-semibold mb-2">Chat #{chat.id}</h3>

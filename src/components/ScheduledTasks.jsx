@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import data from '../data/ScheduleData.json';
+import "../components/checkbox.css"
 
 export const ScheduledTasks= () => {
   const scrollRef = useRef(null);
@@ -64,7 +65,7 @@ export const ScheduledTasks= () => {
             {/* Checkbox */}
             <input
                  type="checkbox"
-                className="mr-20 h-6 w-6 border border-sky-300 rounded focus:ring-sky-300 "
+                className="round-checkbox mr-12 w-6 h-6 "
                 checked={checkedItems[call.id] || false}
                 onChange={() => handleCheckboxChange(call.id)}
             />
