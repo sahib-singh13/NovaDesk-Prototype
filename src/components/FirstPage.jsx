@@ -9,7 +9,7 @@ export const FirstPage = () => {
       </style>
       <div className="flex flex-col justify-center items-center w-screen h-screen mb-24">
         <div className="mb-10 animation-bounce">
-          <img src="/logo2.png" alt="Logo" />
+          <img src="/Logo2.png" alt="Logo" />
         </div>
 
         <div
