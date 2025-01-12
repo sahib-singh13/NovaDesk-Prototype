@@ -8,7 +8,7 @@
             "Rating given by user": "4/5",
             "AI analysis": "3/5",
             "Constructive Feedback": "Could be more affirmative, reduce stuttering while talking",
-            "Audio": "/Call-chat-2.mp3"
+            "Audio": "/call-chat-2.mp3"
         },
         {
             "id": 2,
@@ -38,7 +38,7 @@
             "Rating given by user": "3/5",
             "AI analysis": "2/5",
             "Constructive Feedback": "Focus on providing clear instructions, avoid long pauses",
-            "Audio": "/Call-chat-2.mp3"
+            "Audio": "/call-chat-2.mp3"
         },
         {
             "id": 5,
@@ -48,7 +48,7 @@
             "Rating given by user": "2/5",
             "AI analysis": "3/5",
             "Constructive Feedback": "Sound more empathetic and reassuring to the customer",
-            "Audio": "/Call-chat-2.mp3"
+            "Audio": "/call-chat-2.mp3"
         }
     ]
 }
